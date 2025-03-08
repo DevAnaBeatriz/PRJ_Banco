@@ -21,9 +21,12 @@ public class PRJ_MVC_Smalltalk {
         // criamos o controller, que gerencia as operações entre a model (dados) e a view.
         ContaController controller = new ContaController(view);
 
+        // objeto: um objeto é uma instância de uma classe, ou seja, é a representação concreta de um conceito definido por uma classe.
+        // aqui estamos criando dois objetos do tipo ContaPoupanca e ContaCorrente e armazenando-os na lista de contas do controller.
+        
         // CREATE: criando contas bancárias e adicionando ao sistema.
-        controller.adicionarConta(new ContaPoupanca("Ana", 1000)); // cria uma conta poupança para Ana com saldo inicial de 1000
-        controller.adicionarConta(new ContaCorrente("Beatriz", 500)); // cria uma conta corrente para Beatriz com saldo inicial de 500
+        controller.adicionarConta(new ContaPoupanca("Ana", 1000)); // cria um objeto da classe ContaPoupanca para Ana com saldo inicial de 1000
+        controller.adicionarConta(new ContaCorrente("Beatriz", 500)); // cria um objeto da classe ContaCorrente para Beatriz com saldo inicial de 500
 
         // READ: listando todas as contas cadastradas no sistema.
         System.out.println("\n Contas Cadastradas:");
@@ -53,5 +56,9 @@ public class PRJ_MVC_Smalltalk {
         controller.listarContas();
     }
 }
+
+
+
+
 
 

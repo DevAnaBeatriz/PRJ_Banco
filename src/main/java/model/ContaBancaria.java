@@ -44,15 +44,12 @@ public abstract class ContaBancaria {
         saldo -= valor; // reduz o saldo pelo valor sacado
         return true;
     }
-
     // getters e setters (encapsulamento)
     // permitem acessar e modificar os dados de maneira controlada
-    
     // retorna o nome do titular da conta
     public String getTitular() {
         return titular;
     }
-    
     // retorna o saldo atual da conta
     public double getSaldo() {
         return saldo;
