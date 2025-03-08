@@ -1,0 +1,7 @@
+model\Transacoes.class
+view\ContaView.class
+model\ContaBancaria.class
+com\mycompany\prj_mvc_smalltalk\PRJ_MVC_Smalltalk.class
+model\ContaCorrente.class
+model\ContaPoupanca.class
+controller\ContaController.class
